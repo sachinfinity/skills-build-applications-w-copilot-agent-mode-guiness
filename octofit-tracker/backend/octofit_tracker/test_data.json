@@ -1,0 +1,31 @@
+{
+  "users": [
+    {"email": "thundergod@mhigh.edu", "name": "Thor", "age": 30},
+    {"email": "metalgeek@mhigh.edu", "name": "Tony Stark", "age": 35},
+    {"email": "zerocool@mhigh.edu", "name": "Steve Rogers", "age": 32},
+    {"email": "crashoverride@hmhigh.edu", "name": "Natasha Romanoff", "age": 28},
+    {"email": "sleeptoken@mhigh.edu", "name": "Bruce Banner", "age": 40}
+  ],
+  "teams": [
+    {"name": "Blue Team"},
+    {"name": "Gold Team"}
+  ],
+  "activities": [
+    {"user_email": "thundergod@mhigh.edu", "type": "Cycling", "duration": 60, "date": "2025-04-08"},
+    {"user_email": "metalgeek@mhigh.edu", "type": "Crossfit", "duration": 120, "date": "2025-04-07"},
+    {"user_email": "zerocool@mhigh.edu", "type": "Running", "duration": 90, "date": "2025-04-06"},
+    {"user_email": "crashoverride@hmhigh.edu", "type": "Strength", "duration": 30, "date": "2025-04-05"},
+    {"user_email": "sleeptoken@mhigh.edu", "type": "Swimming", "duration": 75, "date": "2025-04-04"}
+  ],
+  "leaderboard": [
+    {"team_name": "Blue Team", "points": 100},
+    {"team_name": "Gold Team", "points": 90}
+  ],
+  "workouts": [
+    {"name": "Cycling Training", "description": "Training for a road cycling event"},
+    {"name": "Crossfit", "description": "Training for a crossfit competition"},
+    {"name": "Running Training", "description": "Training for a marathon"},
+    {"name": "Strength Training", "description": "Training for strength"},
+    {"name": "Swimming Training", "description": "Training for a swimming competition"}
+  ]
+}
