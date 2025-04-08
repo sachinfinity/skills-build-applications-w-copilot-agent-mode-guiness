@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CODESPACE_API_SUFFIX = 'https://super-tribble-69ww5xj67pqw2rxqq-8000.app.github.dev/'
 
 # Application definition
 
