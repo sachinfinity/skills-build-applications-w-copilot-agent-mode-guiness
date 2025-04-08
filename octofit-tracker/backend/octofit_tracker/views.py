@@ -1,6 +1,16 @@
 from rest_framework import viewsets
 from .models import User, Team, Activity, Leaderboard, Workout
 from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, LeaderboardSerializer, WorkoutSerializer
+from django.http import JsonResponse
+
+def api_root(request):
+    return JsonResponse({
+        'users': 'https://super-tribble-69ww5xj67pqw2rxqq-8000.app.github.dev/users/',
+        'teams': 'https://super-tribble-69ww5xj67pqw2rxqq-8000.app.github.dev/teams/',
+        'activities': 'https://super-tribble-69ww5xj67pqw2rxqq-8000.app.github.dev/activities/',
+        'leaderboard': 'https://super-tribble-69ww5xj67pqw2rxqq-8000.app.github.dev/leaderboard/',
+        'workouts': 'https://super-tribble-69ww5xj67pqw2rxqq-8000.app.github.dev/workouts/'
+    })
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
